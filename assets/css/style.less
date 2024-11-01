@@ -1,0 +1,135 @@
+.wpmdb-wrap {
+  .changelog {
+    .col {
+      p {
+        text-align: justify;
+      }
+    }
+  }
+
+  .postbox {
+    padding: 20px;
+
+    .inside {
+      padding-bottom: 0;
+
+      h3 {
+        margin: 1rem 0;
+      }
+
+      form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+        .col-6 {
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+
+        .col-12 {
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          max-width: 100%;
+          margin-top: 12px;
+        }
+
+        label {
+
+          span {
+            width: 94px;
+            display: inline-block;
+            text-align: center;
+          }
+
+          input {
+            width: calc(100% - 230px);
+            border: 1px solid #CCC;
+            border-radius: 1px;
+            padding: 6px;
+          }
+
+          button {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 0;
+          }
+        }
+      }
+    }
+
+    &.donate {
+      text-align: center;
+
+      img {
+        width: 128px;
+        height: 128px;
+      }
+
+      input {
+        max-width: 100%;
+        width: 400px;
+        margin-bottom: 30px;
+        border: 1px solid #CCC;
+        border-radius: 1px;
+        padding: 6px;
+      }
+
+      button {
+      }
+    }
+  }
+}
+
+.wpmdb-search {
+  label {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+
+    input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #cccccc;
+      border-radius: 0;
+    }
+  }
+
+  #result {
+    table {
+      border-collapse: collapse;
+      margin-top: 20px;
+      width: 100%;
+
+      tbody {
+        tr {
+          td {
+            padding: 8px;
+            border: 1px solid #cccccc;
+            width: 120px;
+
+            &:nth-child(2) {
+              width: calc(100% - 120px);
+            }
+
+            label {
+              margin-top: 0;
+            }
+
+            input {
+              width: 100%;
+              border: none;
+              background: #FFF;
+
+              &:focus {
+                box-shadow: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

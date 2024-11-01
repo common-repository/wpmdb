@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress IMDB\n"
+"POT-Creation-Date: 2020-04-02 16:25+0430\n"
+"PO-Revision-Date: 2020-04-02 16:26+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wpmdb.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/css/index.php:3 assets/img/index.php:3 includes/index.php:3
+#: languages/index.php:3
+msgid "You can't read this file directly."
+msgstr "شما نمیتوانید این فایل را مستقیماً بخوانید."
+
+#: includes/class-wpmdb.php:72 includes/class-wpmdb.php:73
+msgid "WP IMDB"
+msgstr "وردپرس IMDB"
+
+#: includes/class-wpmdb.php:110
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/class-wpmdb_ajax.php:16
+msgid "Your api key was deleted successfully!"
+msgstr "کلید API شما با موفقیت حذف شد!"
+
+#: includes/class-wpmdb_ajax.php:20
+msgid "Your api key was added successfully!"
+msgstr "کلید API شما با موفقیت اضافه شد!"
+
+#: includes/class-wpmdb_ajax.php:23
+msgid "Your api key was updated successfully!"
+msgstr "کلید API شما با موفقیت حذف شد!"
+
+#: includes/class-wpmdb_donate.php:34
+msgid "Donate for WPMDB plugin"
+msgstr "حمایت برای افزونه WPMDB"
+
+#: includes/class-wpmdb_metabox.php:14 templates/index.php:6
+msgid "Wordpress IMDB"
+msgstr "وردپرس IMDB"
+
+#: includes/class-wpmdb_metabox.php:30
+msgid "Please set api key. this plugin can't work without api key."
+msgstr ""
+"لطفا یک کلید API تعریف کنید. این افزونه نمیتواند بدون کلید API کار کند."
+
+#: includes/class-wpmdb_metabox.php:34
+msgid "Insert IMDB ID e.g: tt3896198"
+msgstr "آیدی IMDB را وارد کنید به عنوان مثال: tt3896198"
+
+#: includes/class-wpmdb_shortcodes.php:163
+msgid " Poster"
+msgstr " پوستر"
+
+#: templates/index.php:15
+msgid ""
+"IMDB is a reference for many movie and TV lovers around the world. So you "
+"can see all the details of a movie from this site like posters, box office "
+"sales, actors and much more ..."
+msgstr ""
+"IMDB مرجع بسیاری از دوستداران فیلم و تلویزیون در سراسر جهان است. بنابراین می "
+"توانید تمام جزئیات یک فیلم از این سایت مانند پوستر ، فروش گیشه ، بازیگران و "
+"موارد دیگر را مشاهده کنید ..."
+
+#: templates/index.php:17
+msgid ""
+"So many site owners need to collect this information for their users. That's "
+"why this plugin was created so that you, the site owner, can retrieve "
+"information from your database and store it in your database so that you can "
+"show it to your users whenever you need it."
+msgstr ""
+"بنابراین بسیاری از دارندگان سایت باید این اطلاعات را برای کاربران خود جمع "
+"آوری کنند. به همین دلیل این افزونه به گونه ای ایجاد شده است که شما ، صاحب "
+"سایت ، می توانید اطلاعات را از پایگاه داده خود بازیابی کرده و آن را در بانک "
+"اطلاعاتی خود ذخیره کنید تا بتوانید هر زمان که نیاز دارید ، آن را در اختیار "
+"کاربران خود قرار دهید."
+
+#: templates/index.php:20
+msgid "We hope the plugin can be very useful for you"
+msgstr "امیدواریم این افزونه برای شما بسیار مفید باشد"
+
+#: templates/index.php:28
+msgid "Submit your api key"
+msgstr "کلید API خود را ثبت کنید"
+
+#: templates/index.php:30
+msgid "First of all you need to define a key for yourself."
+msgstr "اول از همه شما نیاز دارید که یک کلید برای خودتان تعریف کنید."
+
+#: templates/index.php:33
+msgid "Follow the steps:"
+msgstr "مراحل زیر را دنبال کنید:"
+
+#: templates/index.php:36
+msgid ""
+"Go to <a href=\"http://www.omdbapi.com/apikey.aspx\">this</a> link first"
+msgstr ""
+"ابتدا به <a href=\"http://www.omdbapi.com/apikey.aspx\">این</a> لینک بروید"
+
+#: templates/index.php:37
+msgid "Change \"Account Type\" to FREE! (1,000 daily limit)"
+msgstr "Account Type را به FREE! (1,000 daily limit) تغییر دهید"
+
+#: templates/index.php:38
+msgid ""
+"Enter your \"Email\", \"First Name\", \"Last Name\" and a short description "
+"for your application"
+msgstr ""
+"ایمیل، نام و نام خانوادگی خود به همراه یک توضیح کوتاه در مورد سایتتان را "
+"وارد کنید"
+
+#: templates/index.php:39
+msgid ""
+"After registering you will receive an email containing a code, copy and "
+"paste it into the field below to enable the plugin in your name"
+msgstr ""
+"بعد از ثبت صحیح اطلاعات شما یک ایمیل دریافت میکنید که حاوی یک کد است، آنرا "
+"کپی و در فیلد زیر پیست کنید تا افزونه با نام شما فعال شود"
+
+#: templates/index.php:40
+msgid "Now you can enjoy the plugin :)"
+msgstr "حالا میتوانید از افزونه لذت ببرید :)"
+
+#: templates/index.php:44
+msgid "API Key:"
+msgstr "کلید API:"
+
+#: templates/index.php:47
+msgid "Save Changes"
+msgstr "ذخیره‌ی تغییرات"
+
+#: templates/index.php:59
+msgid "Thanks for your support"
+msgstr "بابت حمایتتان متشکرم"
+
+#: templates/index.php:64
+msgid "Cup of coffee"
+msgstr "یک فنجان قهوه"
+
+#: templates/index.php:65
+msgid "Invite me for a cup of coffee :)"
+msgstr "من را به یک فنجان قهوه دعوت کنید :)"
+
+#: templates/index.php:66
+msgid "Your help makes me do my best"
+msgstr "کمک شما باید میشه من کارمو بهتر انجام بدم"
+
+#: templates/index.php:70
+msgid "Phone number"
+msgstr "شماره تلفن"
+
+#: templates/index.php:75
+msgid "Small"
+msgstr "کوچک"
+
+#: templates/index.php:78
+msgid "Medium"
+msgstr "متوسط"
+
+#: templates/index.php:81
+msgid "Large"
+msgstr "بزرگ"
+
+#: templates/search_result.php:13
+msgid "Error"
+msgstr "خطا"
+
+#: templates/search_result.php:18
+msgid "Error getting data."
+msgstr "خطا در دریافت اطلاعات."
+
+#: templates/search_result.php:24 templates/search_result.php:260
+msgid "You can submit this information to post, just save your post."
+msgstr "شما میتوانید اطلاعات را ذخیره کنید، تنها کافیست پست را ذخیره کنید."
+
+#: templates/search_result.php:30
+msgid "Title"
+msgstr "عنوان"
+
+#: templates/search_result.php:41
+msgid "Year"
+msgstr "سال تولید"
+
+#: templates/search_result.php:52
+msgid "Rated"
+msgstr "درجه‌بندی"
+
+#: templates/search_result.php:63
+msgid "Released"
+msgstr "تاریخ انتشار"
+
+#: templates/search_result.php:74
+msgid "Runtime"
+msgstr "زمان"
+
+#: templates/search_result.php:85
+msgid "Director"
+msgstr "کارگردان"
+
+#: templates/search_result.php:96
+msgid "Writer"
+msgstr "نویسنده"
+
+#: templates/search_result.php:107
+msgid "Actors"
+msgstr "بازیگران"
+
+#: templates/search_result.php:118
+msgid "Plot"
+msgstr "خلاصه"
+
+#: templates/search_result.php:129
+msgid "Language"
+msgstr "زبان"
+
+#: templates/search_result.php:140
+msgid "Country"
+msgstr "کشور ساخت"
+
+#: templates/search_result.php:151
+msgid "Awards"
+msgstr "جوایز"
+
+#: templates/search_result.php:162
+msgid "Poster"
+msgstr "پوستر"
+
+#: templates/search_result.php:173
+msgid "IMDB Score"
+msgstr "امتیاز IMDB"
+
+#: templates/search_result.php:184
+msgid "Rotten Tomatoes"
+msgstr "Rotten Tomatoes"
+
+#: templates/search_result.php:195
+msgid "Metacritic"
+msgstr "Metacritic"
+
+#: templates/search_result.php:206
+msgid "Votes"
+msgstr "تعداد رای‌ها"
+
+#: templates/search_result.php:217
+msgid "Type"
+msgstr "نوع"
+
+#: templates/search_result.php:228
+msgid "BoxOffice"
+msgstr "باکس‌آفیس"
+
+#: templates/search_result.php:239
+msgid "Production"
+msgstr ""
+"تولید \n"
+"کننده"
+
+#: templates/search_result.php:250
+msgid "Website"
+msgstr "وبسایت"
+
+#. Plugin Name of the plugin/theme
+msgid "wpmdb"
+msgstr "wpmdb"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wpmdb"
+msgstr "https://wordpress.org/plugins/wpmdb"
+
+#. Description of the plugin/theme
+msgid ""
+"Get information from IMDB and set to your post, just active plugin, use "
+"shortcodes and enjoy from free deatils."
+msgstr ""
+"دریافت اطلاعات از IMDB و تنظیم در نوشته شما، تنها افزونه رو فعال کنید، از "
+"شرتکد استفاده کنید و از اطلاعات رایگان لذت ببرید."
+
+#. Author of the plugin/theme
+msgid "Ahmadreza Ebrahimi"
+msgstr "احمدرضا ابراهیمی"
+
+#. Author URI of the plugin/theme
+msgid "https://skinche.ir/AHMAD_R3ZA"
+msgstr "https://skinche.ir/AHMAD_R3ZA"
+
+#~ msgid "There was an error while sending"
+#~ msgstr "یک خطا در هنگام ارسال وجود دارد"
+
+#~ msgid "وردپرس IMDB"
+#~ msgstr "وردپرس IMDB"

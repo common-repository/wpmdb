@@ -1,0 +1,281 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Wordpress IMDB\n"
+"POT-Creation-Date: 2020-04-02 16:26+0430\n"
+"PO-Revision-Date: 2020-03-30 22:27+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wpmdb.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/css/index.php:3 assets/img/index.php:3 includes/index.php:3
+#: languages/index.php:3
+msgid "You can't read this file directly."
+msgstr ""
+
+#: includes/class-wpmdb.php:72 includes/class-wpmdb.php:73
+msgid "WP IMDB"
+msgstr ""
+
+#: includes/class-wpmdb.php:110
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wpmdb_ajax.php:16
+msgid "Your api key was deleted successfully!"
+msgstr ""
+
+#: includes/class-wpmdb_ajax.php:20
+msgid "Your api key was added successfully!"
+msgstr ""
+
+#: includes/class-wpmdb_ajax.php:23
+msgid "Your api key was updated successfully!"
+msgstr ""
+
+#: includes/class-wpmdb_donate.php:34
+msgid "Donate for WPMDB plugin"
+msgstr ""
+
+#: includes/class-wpmdb_metabox.php:14 templates/index.php:6
+msgid "Wordpress IMDB"
+msgstr ""
+
+#: includes/class-wpmdb_metabox.php:30
+msgid "Please set api key. this plugin can't work without api key."
+msgstr ""
+
+#: includes/class-wpmdb_metabox.php:34
+msgid "Insert IMDB ID e.g: tt3896198"
+msgstr ""
+
+#: includes/class-wpmdb_shortcodes.php:163
+msgid " Poster"
+msgstr ""
+
+#: templates/index.php:15
+msgid ""
+"IMDB is a reference for many movie and TV lovers around the world. So you "
+"can see all the details of a movie from this site like posters, box office "
+"sales, actors and much more ..."
+msgstr ""
+
+#: templates/index.php:17
+msgid ""
+"So many site owners need to collect this information for their users. That's "
+"why this plugin was created so that you, the site owner, can retrieve "
+"information from your database and store it in your database so that you can "
+"show it to your users whenever you need it."
+msgstr ""
+
+#: templates/index.php:20
+msgid "We hope the plugin can be very useful for you"
+msgstr ""
+
+#: templates/index.php:28
+msgid "Submit your api key"
+msgstr ""
+
+#: templates/index.php:30
+msgid "First of all you need to define a key for yourself."
+msgstr ""
+
+#: templates/index.php:33
+msgid "Follow the steps:"
+msgstr ""
+
+#: templates/index.php:36
+msgid ""
+"Go to <a href=\"http://www.omdbapi.com/apikey.aspx\">this</a> link first"
+msgstr ""
+
+#: templates/index.php:37
+msgid "Change \"Account Type\" to FREE! (1,000 daily limit)"
+msgstr ""
+
+#: templates/index.php:38
+msgid ""
+"Enter your \"Email\", \"First Name\", \"Last Name\" and a short description "
+"for your application"
+msgstr ""
+
+#: templates/index.php:39
+msgid ""
+"After registering you will receive an email containing a code, copy and "
+"paste it into the field below to enable the plugin in your name"
+msgstr ""
+
+#: templates/index.php:40
+msgid "Now you can enjoy the plugin :)"
+msgstr ""
+
+#: templates/index.php:44
+msgid "API Key:"
+msgstr ""
+
+#: templates/index.php:47
+msgid "Save Changes"
+msgstr ""
+
+#: templates/index.php:59
+msgid "Thanks for your support"
+msgstr ""
+
+#: templates/index.php:64
+msgid "Cup of coffee"
+msgstr ""
+
+#: templates/index.php:65
+msgid "Invite me for a cup of coffee :)"
+msgstr ""
+
+#: templates/index.php:66
+msgid "Your help makes me do my best"
+msgstr ""
+
+#: templates/index.php:70
+msgid "Phone number"
+msgstr ""
+
+#: templates/index.php:75
+msgid "Small"
+msgstr ""
+
+#: templates/index.php:78
+msgid "Medium"
+msgstr ""
+
+#: templates/index.php:81
+msgid "Large"
+msgstr ""
+
+#: templates/search_result.php:13
+msgid "Error"
+msgstr ""
+
+#: templates/search_result.php:18
+msgid "Error getting data."
+msgstr ""
+
+#: templates/search_result.php:24 templates/search_result.php:260
+msgid "You can submit this information to post, just save your post."
+msgstr ""
+
+#: templates/search_result.php:30
+msgid "Title"
+msgstr ""
+
+#: templates/search_result.php:41
+msgid "Year"
+msgstr ""
+
+#: templates/search_result.php:52
+msgid "Rated"
+msgstr ""
+
+#: templates/search_result.php:63
+msgid "Released"
+msgstr ""
+
+#: templates/search_result.php:74
+msgid "Runtime"
+msgstr ""
+
+#: templates/search_result.php:85
+msgid "Director"
+msgstr ""
+
+#: templates/search_result.php:96
+msgid "Writer"
+msgstr ""
+
+#: templates/search_result.php:107
+msgid "Actors"
+msgstr ""
+
+#: templates/search_result.php:118
+msgid "Plot"
+msgstr ""
+
+#: templates/search_result.php:129
+msgid "Language"
+msgstr ""
+
+#: templates/search_result.php:140
+msgid "Country"
+msgstr ""
+
+#: templates/search_result.php:151
+msgid "Awards"
+msgstr ""
+
+#: templates/search_result.php:162
+msgid "Poster"
+msgstr ""
+
+#: templates/search_result.php:173
+msgid "IMDB Score"
+msgstr ""
+
+#: templates/search_result.php:184
+msgid "Rotten Tomatoes"
+msgstr ""
+
+#: templates/search_result.php:195
+msgid "Metacritic"
+msgstr ""
+
+#: templates/search_result.php:206
+msgid "Votes"
+msgstr ""
+
+#: templates/search_result.php:217
+msgid "Type"
+msgstr ""
+
+#: templates/search_result.php:228
+msgid "BoxOffice"
+msgstr ""
+
+#: templates/search_result.php:239
+msgid "Production"
+msgstr ""
+
+#: templates/search_result.php:250
+msgid "Website"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "wpmdb"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wpmdb"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Get information from IMDB and set to your post, just active plugin, use "
+"shortcodes and enjoy from free deatils."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ahmadreza Ebrahimi"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://skinche.ir/AHMAD_R3ZA"
+msgstr ""
